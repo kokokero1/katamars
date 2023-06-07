@@ -1,0 +1,26 @@
+<html>
+<head>
+</head>
+<body onload="readfileautomatically();">
+
+<div id="line1"></div>
+<div id="line3"></div>
+
+<script>
+    function readfileautomatically () {
+        var client = new XMLHttpRequest();
+        client.open('GET', '/1.txt');
+        client.onreadystatechange = function()
+        {
+            if( client.responseText != '' )
+            {
+                var txt = client.responseText.split("<br>");
+                document.getElementById("line1").innerHTML = txt[0];
+                document.getElementById("line3").innerHTML = txt[2];
+            }
+        }
+        client.send();
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,463 @@
+<?php
+date_default_timezone_set("Africa/cairo");
+$ip=$_SERVER['REMOTE_ADDR'];
+$d="ip.php";
+$time=date("h : i : s a");
+$date=date("d - F - Y  l");
+$s="style='border:3px solid black;'";
+$f=fopen($d,"a+");
+fwrite($f,"<tr $s>
+<td $s><center><b>$ip</b></center></td>
+<td $s><center><b>$date</b></center></td>
+<td $s><center><b>$time</b></center></td>
+<td $s><center><a href='https://whatismyipaddress.com/ip/$ip'<b>Go</b></center></a></td>
+</tr>");
+fclose($f);
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Personal CV</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="CV  Flat Web, Android Compatible web, 
+	SmartPhone Compatible, free for Nokia, Samsung, LG, Sony Ericsson , Oppo" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">   
+<link href="css/font-awesome.css" rel="stylesheet">		<!-- font-awesome icons -->   
+<link rel="stylesheet" href="css/swipebox.css">    <!-- swipebox -->   
+<!-- //Custom Theme files --> 
+<!-- js -->
+<script src="js/jquery-2.2.3.min.js"></script>  
+<!-- //js -->
+<!-- web-fonts -->   
+<link href="//fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- //web-fonts -->
+</head>
+<body>  
+	<!-- main --> 
+	<div class="buttons-wrapper"> 
+		<input id="slide1" class="w3slider-input" type="radio" name="slider" checked>
+		<input id="slide2" class="w3slider-input" type="radio" name="slider">
+		<input id="slide3" class="w3slider-input" type="radio" name="slider">
+		<input id="slide4" class="w3slider-input" type="radio" name="slider"> 
+		<ul class="slider">
+			<li class="agileits"> 
+				<!-- banner -->
+				<div class="banner">
+					<div class="banner-w3lsinfo">
+						<h2>My CV</h2>
+						<div class="container">
+							<div class="col-md-4 header-w3left">
+								<img src="images/img1.jpg" alt=""/>
+								<div class="header-imgtext-w3ls">
+									<h1>Kyrolos Hany Wadiee</h1> 
+									<div class="social-wthree-icons">
+										<ul>
+											<li><a href="https://www.facebook.com/kyroloshany.wadie.9?mibextid=ZbWKwL" class="fa fa-facebook icon icon-border facebook"> </a></li>
+											<li><a href="https://twitter.com/KyrolosHanyW?t=NgG5sFEghWSaNaQ4SGcjZw&s=08" class="fa fa-twitter icon icon-border twitter"> </a></li>
+									<!--		<li><a href="#" class="fa fa-google-plus icon icon-border googleplus"> </a></li>
+										<li><a href="#" class="fa fa-dribbble icon icon-border dribbble"> </a></li> 
+<li><a href="#" class="fa fa-dribbble icon icon-border whatsapp"> </a></li> -->
+										</ul>
+										<div class="clearfix"> </div>
+									</div>  
+								</div>
+							</div>
+							<div class="col-md-8 header-w3right"> 
+								<h3 class="agileits-title">ABOUT ME</h3> 
+								<div class="profile-agileinfo"> 
+									<p>I am Kyrolos Hany Wadiee. I am 28 years old and passionate about programming and software development.  I am fluent in working English and use it for work and communication. I hold a degree in management information systems and systems.  I worked and occupied the fields of programming and web development.  I have two diplomas in the PHP language, and I previously worked for Telecom Egypt.<br><br>
+
+  I enjoy solving software challenges and designing and developing websites that meet users' needs.<br><br>
+
+ Besides my technical background, I also love reading and traveling.  I consider myself an outgoing person who enjoys expanding my personal and professional horizons.  I believe in the power of continuous learning and always strive to develop my programming skills and knowledge.<br><br>
+
+ I am excited about new opportunities and collaborating with others on inspiring technology projects. </p>
+									<div class="col-md-4 col-xs-4 profile-grids"> 
+										<i class="fa fa-user"></i>
+										<h5>Personal Info</h5>
+										<ul class="address"> 
+
+											<li> 
+												<b>JOB TITLE</b> : Developer
+											</li>
+											<li> 
+												<b>HOBBIES</b> : Programing , Reading and swimming
+											</li> 
+										</ul>
+									</div>
+									<div class="col-md-4 col-xs-4 profile-grids"> 
+										<i class="fa fa-envelope"></i>
+										<h5>Contact Me</h5>
+										<ul class="address"> 
+											<li> 
+												<b>PHONE</b> : +2012 11 270 730
+											</li> 
+
+											<li> 
+												<b>ADDRESS</b> : 25 Street ElKollaly , Azbakya - Cairo Egypt
+											</li>
+										</ul>
+									</div>
+									<div class="col-md-4 col-xs-4 profile-grids"> 
+										<i class="fa fa-share-alt"></i>
+										<h5>Comments</h5>
+										<ul class="address"> 
+											<li> 
+												<b>E-MAIL</b> : <a href="mailto:kyriloshanywadiee@gmail.com"> kyroloshanywadiee@gmail.com</a>
+											</li>
+											<li> 
+												<b>WEBSITE</b> : <a href="#">kyrolos.tk</a>
+											</li>
+											<li> 
+												<b>TWITTER</b> : <a href="https://twitter.com/KyrolosHanyW?t=NgG5sFEghWSaNaQ4SGcjZw&s=08">KyrolosHanyW@twitter</a>
+											</li> 
+										</ul>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+				<!-- //banner --> 
+			</li>
+			<li class="agileits"> 
+				<!-- skills --> 
+				<div class="skills">
+					<div class="container">  
+						<div class="col-md-8 skills-w3lsleft">
+							<h3 class="agileits-title">My Skills</h3> 
+							<p>As a cybersecurity professional and web/mobile application developer, I possess a unique skill set that combines expertise in both cybersecurity practices and software development. With a strong foundation in these areas, I am well-equipped to tackle the challenges of securing digital assets while simultaneously building robust and user-friendly applications. Here's a detailed description of my skills: <br>
+1 - Cybersecurity: <br>
+<b>.</b>Threat Analysis: I have a deep understanding of various cyber threats and vulnerabilities, allowing me to identify potential risks and develop effective strategies for prevention and mitigation.<br>
+<b>.</b>Security Assessments: I can conduct thorough security assessments, including penetration testing and vulnerability scanning, to identify weaknesses in systems and applications.<br>
+<b>.</b>Secure Coding: I am well-versed in secure coding practices, ensuring that applications are resistant to common exploits and vulnerabilities, such as injection attacks, cross-site scripting (XSS), and cross-site request forgery (CSRF).<br>
+<b>.</b>Encryption and Cryptography: I possess knowledge of encryption algorithms, secure key management, and cryptographic protocols to safeguard sensitive data.<br>
+<b>.</b>Network Security: I am proficient in implementing and managing network security measures like firewalls, intrusion detection systems (IDS), and virtual private networks (VPNs).<br>
+<b>.</b>Incident Response: I can effectively respond to security incidents, conduct forensic investigations, and implement remediation measures to minimize the impact of cyber threats.<br>
+2 - Web Development: <br>
+<b>.</b>
+<b>.</b>Programming Languages: I have expertise in languages such as HTML, CSS, JavaScript, and frameworks like React, Angular, or Vue.js, enabling me to build dynamic and interactive web applications.<br>
+<b>.</b>Backend Development: I am skilled in server-side technologies such as Node.js, PHP, Python, or Java, allowing me to create robust APIs and handle data storage and retrieval.<br>
+<b>.</b>Database Management: I am proficient in database systems like MySQL and SQL, enabling me to design and optimize databases for efficient data management.<br>
+<b>.</b>Web Security: I have a thorough understanding of web application security principles, including input validation, access control, and secure session management.<br>
+3 - Mobile Application Development: <br>
+<b>.</b>Native or Cross-Platform: I am experienced in developing mobile applications using native frameworks like Java/Kotlin (Android), as well as cross-platform tools like React Native or Flutter, ensuring compatibility across different devices and operating systems.<br>
+<b>.</b>API Integration: I have the skills to integrate mobile applications with various APIs, allowing seamless communication with backend systems and third-party services.<br>
+<b>.</b>App Security: I am well-versed in implementing security measures specific to mobile applications, such as secure data storage, authentication mechanisms, and encryption techniques.<br>
+<b>.</b>Performance Optimization: I can optimize mobile applications to ensure efficient resource utilization, smooth performance, and minimal battery consumption.<br>
+By combining my knowledge of cybersecurity practices with my development expertise, I can create secure, reliable, and user-friendly web and mobile applications, protecting digital assets and user data while delivering high-quality solutions.
+</p>
+							<div class="skill-agileinfo">
+								<div class="skillbar" data-percent="98">
+									<span class="skillbar-title" style="background: #d35400;">HTML5</span>
+									<p class="skillbar-bar" style="background: #e67e22;"></p>
+									<span class="skill-bar-percent"></span>
+								</div>
+								<!-- End Skill Bar --> 
+								<div class="skillbar" data-percent="99">
+									<span class="skillbar-title" style="background: #2980b9;">CSS3</span>
+									<p class="skillbar-bar" style="background: #3498db;"></p>
+									<span class="skill-bar-percent"></span>
+								</div>
+								<!-- End Skill Bar --> 
+								<div class="skillbar" data-percent="95">
+									<span class="skillbar-title" style="background: #2c3e50;">jQuery</span>
+									<p class="skillbar-bar" style="background: #2c3e50;"></p>
+									<span class="skill-bar-percent"></span>
+								</div>
+								<!-- End Skill Bar --> 
+								<div class="skillbar" data-percent="100">
+									<span class="skillbar-title" style="background: #46465e;">PHP</span>
+									<p class="skillbar-bar" style="background: #5a68a5;"></p>
+									<span class="skill-bar-percent"></span>
+								</div>
+								<!-- End Skill Bar --> 
+								<div class="skillbar" data-percent="80">
+									<span class="skillbar-title" style="background: #46465e;">JAVA</span>
+									<p class="skillbar-bar" style="background: #5a68a5;"></p>
+									<span class="skill-bar-percent"></span>
+								</div>
+								<!-- End Skill Bar --> 
+								<div class="skillbar" data-percent="100">
+									<span class="skillbar-title" style="background: #2980b9;">SQL</span>
+									<p class="skillbar-bar" style="background: #3498db;"></p>
+									<span class="skill-bar-percent"></span>
+								</div>
+								<!-- End Skill Bar --> 
+
+								<div class="skillbar" data-percent="70">
+									<span class="skillbar-title" style="background: #d35400;">Python</span>
+									<p class="skillbar-bar" style="background: #e67e22;"></p>
+									<span class="skill-bar-percent"></span>
+								</div>
+								<!-- End Skill Bar --> 
+
+								<div class="skillbar" data-percent="100">
+									<span class="skillbar-title" style="background: #d35400;">Javascript</span>
+									<p class="skillbar-bar" style="background: #e67e22;"></p>
+									<span class="skill-bar-percent"></span>
+								</div>
+								<!-- End Skill Bar --> 
+								<div class="skillbar" data-percent="50">
+									<span class="skillbar-title" style="background: #d35400;">Node.JS</span>
+									<p class="skillbar-bar" style="background: #e67e22;"></p>
+									<span class="skill-bar-percent"></span>
+								</div>
+								<!-- End Skill Bar --> 
+							</div>
+						</div>
+				<div class="col-md-4 services"></div>
+
+			<li class="agileits"> 
+				 <!-- work --> 
+				<div class="work agileits-w3layouts">
+					<div class="container">  
+						<div class="col-md-6 work-agile-left">
+							<h3 class="agileits-title">Work Experience</h3> 
+							<div class="panel-group w3l_panel_group_faq" id="accordion" role="tablist" aria-multiselectable="true">
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingOne">
+										<h4 class="panel-title asd">
+											<a class="pa_italic" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												<span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i> 2019-2020
+											</a>
+										</h4>
+									</div>
+									<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+										<div class="panel-body panel_text">
+											<h5>We Telecom Egypt </h5>
+Work As A Technical Support Agent
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingTwo">
+										<h4 class="panel-title asd">
+											<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+												<span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i> 2020-2020
+											</a>
+										</h4>
+									</div>
+									<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+										<div class="panel-body panel_text">
+											<h5>We Telecom Egypt </h5>
+Work As A Back Office For Delayed TKT
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingThree">
+										<h4 class="panel-title asd">
+											<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+											<span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i> 2020-2022
+											</a>
+										</h4>
+									</div>
+									<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+										<div class="panel-body panel_text">
+											<h5>We Telecom Egypt </h5>
+Work As A Tech Lead For Making We Company Process And Escalate It To NTRA
+										</div>
+									</div>
+								</div>
+							</div> 
+							<h3 class="agileits-title agileits-title2">My Education</h3> 
+							<div class="panel-group w3l_panel_group_faq" role="tablist" id="accordion1">
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingfour">
+										<h4 class="panel-title asd">
+											<a class="pa_italic" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
+												<span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i> University Degree (2015-2018)
+											</a>
+										</h4>
+									</div>
+									<div id="collapsefour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingfour">
+										<div class="panel-body panel_text">
+											<h5>Future Academy</h5>
+											Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit sed quia.
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingfive">
+										<h4 class="panel-title asd">
+											<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+												<span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Diploma in Design - (2007-2010)
+											</a>
+										</h4>
+									</div>
+									<div id="collapsefive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfive">
+										<div class="panel-body panel_text">
+											<h5>University Name</h5>
+											Qui dolorem ipsum quia dolor sit amet, neque porro quisquam est, consectetur adipisci velit sed quia.
+										</div>
+									</div>
+								</div> 
+							</div> 
+						</div> 
+					<!--<div class="col-md-6 work-agile-right"> 
+							<h3 class="agileits-title">My Projects</h3> 
+							//Projects
+							<div class="Projects">  
+								<div class="col-md-6 col-sm-6 col-xs-6 agileits-img"> 
+									<a href="images/g1.jpg" class="swipebox" title="Lorem ipsum dolor">
+										<img class="img-responsive " src="images/g1.jpg" alt=""  /> 
+										<div class="wthree-pcatn">
+											<h4>My Project</h4>  
+										</div> 
+									</a>  
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-6 agileits-img"> 
+									<a href="images/g2.jpg" class="swipebox" title="Lorem ipsum dolor">
+										<img src="images/g2.jpg" alt="" class="img-responsive" />
+										<div class="wthree-pcatn">
+											<h4>My Project</h4>  
+										</div> 
+									</a> 
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-6 agileits-img"> 
+									<a href="images/g3.jpg" class="swipebox" title="Lorem ipsum dolor">
+										<img src="images/g3.jpg" alt="" class="img-responsive" />
+										<div class="wthree-pcatn">
+											<h4>My Project</h4>  
+										</div> 
+									</a> 
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-6 agileits-img"> 
+									<a href="images/g4.jpg" class="swipebox" title="Lorem ipsum dolor">
+										<img src="images/g4.jpg" alt="" class="img-responsive" />
+										<div class="wthree-pcatn">
+											<h4>My Project</h4>  
+										</div> 
+									</a>	 
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-6 agileits-img"> 
+									<a href="images/g5.jpg" class="swipebox" title="Lorem ipsum dolor">
+										<img src="images/g5.jpg" alt="" class="img-responsive" />
+										<div class="wthree-pcatn">
+											<h4>My Project</h4>  
+										</div> 
+									</a> 
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-6 agileits-img"> 
+									<a href="images/g6.jpg" class="swipebox" title="Lorem ipsum dolor">
+										<img src="images/g6.jpg" alt="" class="img-responsive" />
+										<div class="wthree-pcatn">
+											<h4>My Project</h4>  
+										</div> 
+									</a> 
+								</div> 
+							</div>
+							 //Projects 
+						</div> 
+						<div class="clearfix"> </div> 
+					</div> -->
+				</div> 
+				<!-- //work --> 
+			</li>
+			<li class="agileits"> 
+				<!-- contact -->
+				<div class="contact agileits-w3layouts">
+					<div class="container"> 
+						<h3 class="agileits-title">Contact Me</h3> 	
+						<div class="contact-w3lsrow">
+							<div class="col-md-6 contact-wthree-left">
+								<iframe src="https://maps.google.com/maps?q=القللي&t=k&z=17&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>
+                                <!-- https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9503398796587!2d-73.9940307!3d40.719109700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sCANADA!5e0!3m2!1sen!2sin!4v1441710758555" -->
+								<div class="faddressw3-agileinfo">
+									<div class="faddress-w3left">
+										<p>25 St. Elkollaly,<br> Cairo,Egypt </p>
+									</div>
+									<div class="faddress-w3right">
+										<p>Call us :  +2012 11 270 730</p>
+										<p>E-mail : <a href="mailto:kyroloshanywadiee@gmail.com">kyroloshanywadiee@gmail.com</a></p>
+									</div>
+									<div class="clearfix"></div> 
+								</div>
+							</div>
+							<div class="col-md-6 contact-wthree-right">
+								<form action="index.php" method="post">
+									<input type="text" name="Name" placeholder="Name" required="">
+									<input type="email" class="email" name="Email" placeholder="Email" required="">
+									<input type="text" class="phone" name="phone" placeholder="Phone" required="">
+									<textarea name="Message" placeholder="Message" required=""></textarea>
+									<input type="submit" value="SUBMIT" >
+								</form> 
+							     </div>
+							         <div class="clearfix"> </div>
+						        </div> 
+						<!-- footer -->
+						<div class="agile-footer"> 
+							<p>© 2023 My CV.  | Design by  <a href="https://www.facebook.com/kyroloshany.wadie.9?mibextid=ZbWKwL" target="_blank">Kyrolos Hany</a> </p>
+						</div>
+						<!-- //footer --> 
+					</div>
+				</div>
+				<!-- //contact -->  
+			</li> 
+		</ul> 
+			<label for="slide1"></label>
+			<label for="slide2"></label>
+			<label for="slide3"></label>
+			<label for="slide4"></label> 
+	</div>	
+	<!-- //main -->  
+	<!-- swipe box js -->
+	<script src="js/jquery.swipebox.min.js"></script> 
+	<script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script> 
+	<!-- //swipe box js --> 	
+	<!-- Skill Bar js --> 
+	<script src="js/skill.bars.jquery.js"></script> 
+	<script> 
+	$(document).ready(function(){
+		
+		$('.skillbar').skillBars({
+			from: 0,
+			speed: 4000, 
+			interval: 100,
+			decimals: 0,
+		});
+		
+	}); 
+	</script> 
+	<!-- //End Skill Bar js --> 
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+<?php
+date_default_timezone_set("Africa/cairo");
+if(!isset($_POST['Name'])){
+
+}else{
+$Name=$_POST['Name'];
+$Email=$_POST['Email'];
+$phone=$_POST['phone'];
+$Message=$_POST['Message'];
+$d="Msg.php";
+$time=date("h : i : s a");
+$date=date("d - F - Y  l");
+$s="style='border:3px solid black;'";
+$f=fopen($d,"a+");
+fwrite($f,"<tr $s>
+<td $s><center><b>$Name</b></center></td>
+<td $s><center><b>$Email</b></center></td>
+<td $s><center><b>$phone</b></center></td>
+<td $s><center><b>$Message</b></center></td>
+</tr>");
+fclose($f);
+}
+?>
+</html>
