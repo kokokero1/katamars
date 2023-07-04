@@ -2,7 +2,6 @@
 <html>
 <title id="demo"></title>
 <body onload="myFunction()">
-<!--<!--<p id="demo"></p>-->
 <script>
 var queryString = window.location.search;
 var urlParams = new URLSearchParams(queryString);
@@ -15,14 +14,13 @@ var s = list[1];
 
 let kt = "";
 for (let i = 1739; i <= 1740; i++) {
-  //text += "<br>The number is " + i;
  kt += i + ", ";
 }
  var find_year= kt;
 
   const is_found = find_year.includes(cyear);
 
-  var find = is_found; // true
+  var find = is_found;
 if ( find != true){
 var coyear = "1739";
 
@@ -36,13 +34,6 @@ document.getElementById("demo").innerHTML = cyear ;
 }
 
 }
-
-
-//if (s == undefined){
-//  var s = "0";
-//}
-//document.getElementById("demo").innerHTML = s;
-//}
 </script>
 </body>
 </html>
