@@ -4,7 +4,6 @@
 <body onload="myFunction()">
 <input type="date" id="myDate" value="">
 <button onclick="myFunction()">Convert</button>
-<!--<p id="demo"></p>-->
 <script>
 var queryString = window.location.search;
 var urlParams = new URLSearchParams(queryString);
@@ -25,8 +24,7 @@ var cday = partValues[2];
 var cmonth = partValues[0];
 var cyear = partValues[4];
 var display = copticDate.replace(/\//g, "-");
-//let t = [newStr];
-//var copticDate = 2024;
+
  let kk = cyear/5;
    //const find_year = ['1739', '1741', '1777'];
 
@@ -90,8 +88,7 @@ if( cmonth == 2 ){
 }
 
 let kt = "";
-for (let i = 1739; i <= 1741; i++) {
-  //text += "<br>The number is " + i;
+for (let i = 1739; i <= 1740; i++) {
  kt += i + ", ";
 }
  var find_year= kt;
